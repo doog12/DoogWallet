@@ -1,0 +1,131 @@
+@import '../Vars/vars';
+
+header {
+  width: 100%;
+  height: 120px;
+
+  background-color: #fff;
+  border-bottom: 2px solid #eff2f5;
+  @media (max-width: 940px) {
+    height: 90px;
+  }
+}
+
+.header__content {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 800px) {
+    padding: 0 30px;
+  }
+}
+
+//* LOGO
+.logo__text {
+  cursor: default;
+  font-family: $logo_font;
+  font-size: 2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  @media (max-width: 940px) {
+    font-size: 1.7rem;
+  }
+  @media (max-width: 800px) {
+    font-size: 2rem;
+    word-spacing: -10px;
+  }
+}
+
+//* NAVBAR
+nav div {
+  display: inline-block;
+}
+
+.navbar {
+  &__links {
+    a {
+      position: relative;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #4a4a4a;
+
+      margin-left: 49px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      @media (min-width: 800px) {
+        &::after {
+          content: '';
+          width: 0%;
+          height: 2px;
+          position: absolute;
+          bottom: -1px;
+          right: 0;
+          background: #4a4a4a;
+          transition: 0.4s;
+        }
+
+        &:hover:after {
+          width: 100%;
+          left: 0;
+        }
+      }
+
+      @media (max-width: 940px) {
+        margin-left: 29px;
+      }
+    }
+  }
+
+  &__personal-area {
+    margin-left: 60px;
+
+    @media (max-width: 860px) {
+      margin-left: 35px;
+    }
+
+    button {
+      white-space: nowrap;
+      height: 36px;
+      padding: 0 16px;
+      border-radius: 8px;
+
+      @media (max-width: 860px) {
+        padding: 0 12px;
+      }
+    }
+    &__login {
+      background: transparent;
+
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #000;
+
+      &:hover {
+        background: #f8fafd;
+        transition: background linear 0.2s;
+      }
+    }
+
+    &__register {
+      background: rgba($color: #226ce6, $alpha: 0.8);
+      transition: all 0.3s;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #fff;
+      &:hover {
+        background: rgba($color: #226ce6, $alpha: 1);
+      }
+    }
+  }
+}

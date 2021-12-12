@@ -1,0 +1,88 @@
+@import './Libs/Fonts/fonts';
+@import './Libs/Vars/vars';
+
+html {
+  font-size: 10px;
+  // overflow-x: hidden;
+
+  width: 100%;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $main_font;
+  font-size: 1rem;
+
+  width: 100%;
+  max-width: 100%;
+
+  background-color: #f8fafd;
+  color: #000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1230px;
+  height: 100%;
+
+  padding: 0 15px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+.non-draggable {
+  user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+@import './Libs/Elements/header';
+@import './Libs/Elements/converter';
+@import './Libs/Elements/Burger/burger';
+@import './Libs/Elements/crypto-table';
+@import './Libs/Elements/select';
+
+@import './Libs/Elements/Components/Page404';
