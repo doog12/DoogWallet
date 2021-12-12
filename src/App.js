@@ -7,7 +7,7 @@ import Header from './Components/Header/Header.jsx'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/DoogWallet">
       <div className="App">
         <Header />
         <Routes>
