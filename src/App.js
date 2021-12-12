@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path={'/home'} element={<Navigate to="/" />} />
-          <Route path={"/index.html"} element={<Navigate to="/" />} />
+          <Route path={"index.html"} element={<Navigate to="/" />} />
           <Route path="/" element={<Converter />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

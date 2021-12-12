@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+  //* BURGER MENU SCRIPT
   const burgerMenu = document.querySelector('.burger-menu')
   const burgerNav = document.querySelector('.burger-nav')
+  const burgerNavLink = document.querySelectorAll('.burger-nav__link')
 
   burgerMenu.addEventListener('click', function () {
     burgerMenu.classList.toggle('active')
@@ -8,15 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.toggle('overflow-hidden')
   })
 
-
-
-
-
-
-
+  for (let i = 0; i < burgerNavLink.length; i++) {
+    burgerNavLink[i].addEventListener('click', () => {
+      burgerMenu.classList.toggle('active')
+      burgerNav.classList.toggle('active')
+    })
+  }
 
 
   
+  //* SELECT SCRIPT
   const selectSingle = document.querySelector('.__select')
   const selectSingle_title = selectSingle.querySelector('.__select__title')
   const selectSingle_labels = selectSingle.querySelectorAll('.__select__label')
