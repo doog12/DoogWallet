@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     burgerNavLink[i].addEventListener('click', () => {
       burgerMenu.classList.toggle('active')
       burgerNav.classList.toggle('active')
+      document.body.classList.remove('overflow-hidden')
     })
   }
 
