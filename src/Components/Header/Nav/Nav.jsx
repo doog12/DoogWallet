@@ -5,10 +5,12 @@ const Nav = () => {
   return (
     <nav>
       <div className="navbar__links">
-       
-        <NavLink className="navbar__links__converter" to="/">Конвертер</NavLink>
-        <NavLink className="navbar__links__crypto" to="/error">Криптовалюты</NavLink>
-
+        <NavLink className="navbar__links__converter" to="/">
+          Конвертер
+        </NavLink>
+        <NavLink className="navbar__links__crypto" to="/cryptocurrencies">
+          Криптовалюты
+        </NavLink>
       </div>
 
       <div className="navbar__personal-area">
