@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DoogWallet/static/css/main.759a95d5.chunk.css",
+    "main.css": "/DoogWallet/static/css/main.0595c4da.chunk.css",
     "main.js": "/DoogWallet/static/js/main.514dc7a0.chunk.js",
     "main.js.map": "/DoogWallet/static/js/main.514dc7a0.chunk.js.map",
     "runtime-main.js": "/DoogWallet/static/js/runtime-main.2605bc50.js",
@@ -10,7 +10,7 @@
     "static/js/3.76b8e78e.chunk.js": "/DoogWallet/static/js/3.76b8e78e.chunk.js",
     "static/js/3.76b8e78e.chunk.js.map": "/DoogWallet/static/js/3.76b8e78e.chunk.js.map",
     "index.html": "/DoogWallet/index.html",
-    "static/css/main.759a95d5.chunk.css.map": "/DoogWallet/static/css/main.759a95d5.chunk.css.map",
+    "static/css/main.0595c4da.chunk.css.map": "/DoogWallet/static/css/main.0595c4da.chunk.css.map",
     "static/js/2.793e4968.chunk.js.LICENSE.txt": "/DoogWallet/static/js/2.793e4968.chunk.js.LICENSE.txt",
     "static/js/main.514dc7a0.chunk.js.LICENSE.txt": "/DoogWallet/static/js/main.514dc7a0.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/DoogWallet/static/media/star-fav-inactive.afaadcc5.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.2605bc50.js",
     "static/js/2.793e4968.chunk.js",
-    "static/css/main.759a95d5.chunk.css",
+    "static/css/main.0595c4da.chunk.css",
     "static/js/main.514dc7a0.chunk.js"
   ]
 }
