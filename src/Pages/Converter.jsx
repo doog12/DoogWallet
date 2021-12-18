@@ -3,6 +3,7 @@ import Arrow from '../Components/Converter/Arrow'
 import Input from '../Components/Converter/Input'
 import axios from 'axios'
 import Table from '../Components/Converter/Table/Table'
+// require('../js/selectScript')
 
 const Converter = () => {
   //!============== CURRENCIES =========================

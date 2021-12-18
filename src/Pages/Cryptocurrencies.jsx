@@ -98,7 +98,7 @@ const Cryptocurrencies = () => {
               <table className="table table-hover">
                 <thead>
                   <tr>
-                    <th scope="col" style={{textAlign: 'center'}}>#</th>
+                    <th id='first-table-header' scope="col" style={{textAlign: 'center'}}>#</th>
                     <th scope="col">Криптовалюты</th>
                     <th scope="col">USD</th>
                     <th scope="col">UAH</th>

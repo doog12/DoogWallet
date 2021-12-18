@@ -35,6 +35,10 @@
           th {
             color: #202020;
             font-size: 1.7rem;
+
+            @media (max-width: 550px) {
+              font-size: 1.3rem;
+            }
           }
         }
       }
@@ -57,6 +61,13 @@
               align-items: center;
               justify-content: center;
               flex-wrap: nowrap;
+              
+              img {
+                @media screen and (max-width: 380px) {
+                  width: 28px;
+                  height: 28px;
+                }
+              }
             }
 
             &__text {
@@ -64,11 +75,22 @@
                 color: #333333;
                 font-weight: 700;
                 font-size: 1.6rem;
+                
+                @media screen and (max-width: 447px) {
+                  font-size: 1.4rem;
+                }
+                @media screen and (max-width: 403px) {
+                  font-size: 1.3rem;
+                }
               }
               &__subtitle {
                 color: rgba(#333333, 0.3);
                 font-size: 1.2rem;
               }
+            }
+
+            @media (max-width: 371px) {
+              width: 100px;
             }
           }
 
@@ -89,7 +111,24 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  #first-table-header {
+    display: none;
+  }
+  .table__first-col {
+    display: none;
+  }
+}
+
+
 .table__crypto-text {
   color: #333333;
   font-size: 1.6rem;
+
+  @media screen and (max-width: 435px){
+    font-size: 1.4rem;
+  }  
+  @media screen and (max-width: 403px) {
+    font-size: 1.3rem;
+  }
 }

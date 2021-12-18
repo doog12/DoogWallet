@@ -5,10 +5,12 @@ import ErrorPage from './Pages/Page404'
 import Converter from './Pages/Converter.jsx'
 import Cryptocurrencies from './Pages/Cryptocurrencies'
 import Header from './Components/Header/Header.jsx'
+require('./js/burgerScript')
+require('./js/selectScript')
 
 function App() {
   return (
-    <Router basename='/DoogWallet'>
+    <Router>
       <div className="App">
         <Header />
         <Routes>
